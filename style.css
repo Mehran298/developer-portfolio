@@ -13,14 +13,17 @@ h1 {
 
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
+
 }
 
 .half-width {
     width: 50%;
     padding-left: 5%;
+
+
 }
 
 .half-width img {
@@ -44,4 +47,27 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px greenyellow;
+    border-left: 7px solid green;
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+footer p {
+    text-align: center;
 }
